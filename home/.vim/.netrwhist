@@ -1,0 +1,11 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =9
+let g:netrw_dirhist_1='/home/james.smith/koans'
+let g:netrw_dirhist_2='/home/james.smith/Dev/mtirails-git/app/controllers'
+let g:netrw_dirhist_3='/home/james.smith/Dev/mpcs-git/app/views/layouts'
+let g:netrw_dirhist_4='/home/james.smith/Dev/mpcs-git/db/migrate'
+let g:netrw_dirhist_5='/home/james.smith/Dev/mpcs-git/spec/controllers/operations_sheets'
+let g:netrw_dirhist_6='/home/james.smith/Dev/mpcs-git/spec/controllers'
+let g:netrw_dirhist_7='/home/james.smith/Dev/mpcs-git/spec/controllers/operations_sheets'
+let g:netrw_dirhist_8='/home/james.smith/Dev/mpcs-git/app/models'
+let g:netrw_dirhist_9='/home/james.smith/Dev/mpcs-git/spec/controllers/operations_sheets'

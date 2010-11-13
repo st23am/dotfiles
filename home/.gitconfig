@@ -1,0 +1,41 @@
+# Git config short cuts and aliases 
+
+[apply]
+    whitespace = nowarn
+[color]
+       branch = auto
+       diff = auto
+       status = auto
+[color "branch"]
+       current = yellow reverse
+       local = yellow
+       remote = green
+[color "diff"]
+       meta = yellow bold
+       frag = magenta bold
+       old = red bold
+       new = green bold
+[color "status"]
+       added = yellow
+       changed = green
+       untracked = cyan
+[color]
+       ui = true
+[alias]
+       st = status
+       ci = commit
+       br = branch
+       co = checkout
+       df = diff
+       dfw = diff -w
+       pend = cherry -v origin/master
+       lg = log --graph --pretty=format:'%Cred%H%Creset -%Cblue %an  %Creset %Cgreen(%cr)%Creset %s'
+	     fl = log --pretty=full --stat
+
+# Git config username and email for commits
+[user]
+	name = Jame Smith
+	email = st23am@gmail.com
+
+[core]
+  editor = vim
